@@ -1,2 +1,5 @@
 # scrub-self
-setting up a repo for a scrub-self mechanism, will have multiple language implementation.
+building a utility for scrubbing comments/lines from ascii files.
+
+integrating components from benhoyt's inih project.
+

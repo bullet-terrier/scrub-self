@@ -32,8 +32,11 @@ typedef struct record_values {
 
 record_value string_to_val( char *record_contents, int *record_length )
 {
+    // removing this from this file, moving it to the other header file.
+    // I'm not sure that record_length is going to be necessary - I'll focus instead on splitting the record.
     char *rec_char = record_contents; // character pointer rec_char should point to record contents.
     char  raw_rec_char = *record_contents; // raw character raw_rec_char should actually contain a value 
+    char *lang_name
 }
 
 
